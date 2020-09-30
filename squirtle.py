@@ -28,7 +28,6 @@ class Powerful_Nucleus(BaseMove):
         self.choose_uses(2)
         self.set_type(Type.EARTH)
 
-
     def get_name(self):
         return "Powerful_Nucleus"
 
@@ -37,7 +36,6 @@ class Ash(BaseMove):
         BaseMove.__init__(self)
         self.choose_uses(2)
         self.set_type(Type.FIRE)
-
 
     def get_name(self):
         return "Ash"
@@ -48,7 +46,6 @@ class Magic_Wave(BaseMove):
         self.choose_uses(2)
         self.set_type(Type.WATER)
 
-
     def get_name(self):
         return "Magic_Wave"
         
@@ -57,7 +54,6 @@ class Shell(BaseMove):
         BaseMove.__init__(self)
         self.choose_uses(2)
         self.set_type(Type.NORMAL)
-
 
     def get_name(self):
         return "Shell"
