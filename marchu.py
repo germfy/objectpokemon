@@ -14,7 +14,7 @@ class Pokemon(BasePokemon):
         
         self.set_type(Type.WATER)
         self.move = 0
-        self.moves = ["Olita de mar ~~", "Granizo! ", "Lluvia acida!!", "Tsunami!!!"]
+        self.moves = ["Olita de mar ~~", "Granizo!", "Lluvia acida!!", "Tsunami!!!"]
 
     def get_name(self):
         return "Marchu"
@@ -40,7 +40,7 @@ class Granizo(BaseMove):
         self.set_type(Type.WATER)
 
     def get_name(self):
-        return "Granizo"
+        return "Granizo!"
 
 class Lluvia_acida(BaseMove):
     def __init__(self):
