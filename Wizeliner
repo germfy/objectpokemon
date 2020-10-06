@@ -8,9 +8,9 @@ class Pokemon(BasePokemon):
         self.spend_attack(30)
         self.spend_defence(20)
         self.add_move(Bad_connection())
-        self.add_move(MOVE())
-        self.add_move(MOVE())
-        self.add_move(MOVE())
+        self.add_move(Wizecat())
+        self.add_move(Spill_beer())
+        self.add_move(Coffee_burn())
         self.set_type(Type.FIRE)
         self.move = 0
         self.moves = ['Bad connection', "Wizecat", "Spill Beer", "Coffee Burn"]
